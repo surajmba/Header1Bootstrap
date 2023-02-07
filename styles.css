@@ -1,0 +1,30 @@
+/* CSS for the navigation menu */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* CSS for the main content area */
+#main-content {
+    padding: 20px;
+}
